@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my food</title>
+
+    <style>
+        body{
+            margin: 0;
+            /*overflow-x: hidden;*/
+        }
+        svg{
+            height: 60px;
+            width: 60px;
+        }
+       
+        img{
+            height: 400px;
+            width: 300px;
+        }
+        
+        /*flex styling*/
+       
+        #nav_div{
+            display: flex;
+            justify-content: space-evenly;
+            z-index: 1;
+            width: 100vw;
+            height: 70px;
+            background-color: white;
+            position: fixed;
+        }
+
+        #container_div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+            align-content: space-around;
+            width: 100vw;
+        }
+
+        #container_div>div{
+            width: 25%;
+          
+            text-align: center;
+            align-self: center;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div id="nav_div">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="24" height="24" fill="white"></rect> <path d="M6 12H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6 15.5H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6 8.5H18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+        <h1>My Food</h1>
+        <h2>Mail</h2>
+    </div>
+
+    <div id="container_div">
+        <div>
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" >
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="Steak" >
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="Cherries" >
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Pasta and Wine" >
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <!-- second row -->
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="Popsicle" >
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="Salmon" >
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" >
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div >
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="Croissant" >
+            <h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
